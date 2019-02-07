@@ -7,7 +7,7 @@ html {
   font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
     Sans-Serif;
   font-weight: normal;
-  color: #272727;
+  color: #fff;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
 }
 
@@ -36,7 +36,6 @@ h6 {
   display: grid;
   grid-template-rows: auto 1fr 1fr auto;
   height: 100vh;
-  color: #fff;
 }
 
 /* Editor */
@@ -74,7 +73,7 @@ h6 {
   resize: none;
   background: none;
   border: 0;
-  color: var(--grey);
+  color: inherit;
   font-size: 16px;
   line-height: 24px;
 }
@@ -88,7 +87,6 @@ h6 {
   grid-gap: 10px;
   background: #191a1d;
   border-bottom: 5px solid var(--grey);
-  color: #fff;
   padding: 10px;
 }
 
@@ -106,7 +104,7 @@ h6 {
 .button {
   background: var(--grey);
   border: 0;
-  color: #fff;
+  color: inherit;
   padding: 10px;
   border-radius: 5px;
   font-size: 15px;
@@ -116,7 +114,7 @@ h6 {
 
 .button--small {
   font-size: 12;
-  padding: 4px;
+  padding: 4px 6px;
   margin: 0 5px;
 }
 
