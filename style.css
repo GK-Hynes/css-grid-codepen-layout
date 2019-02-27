@@ -48,6 +48,7 @@ h6 {
 .editor {
   display: grid;
   grid-template-rows: auto 1fr;
+  border-left: 15px solid var(--grey);
 }
 
 .editor__header {
